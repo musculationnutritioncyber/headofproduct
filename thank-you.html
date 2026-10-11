@@ -37,15 +37,15 @@
     --text-soft:#64748b;
     --border:#e2e8f0;
     --border-soft:#eef2f7;
-    --primary:#ea580c;
-    --primary-dark:#c2410c;
-    --primary-darker:#9a3412;
-    --violet:#f59e0b;
+    --primary:#0ea5e9;
+    --primary-dark:#0284c7;
+    --primary-darker:#0369a1;
+    --violet:#38bdf8;
     --success:#10b981;
     --radius:14px;
     --radius-lg:20px;
     --shadow-sm:0 1px 2px rgba(15,23,42,.06);
-    --shadow-lg:0 24px 60px -20px rgba(194,65,12,.35);
+    --shadow-lg:0 24px 60px -20px rgba(2,132,199,.35);
   }
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
@@ -53,9 +53,9 @@
     font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
     color:var(--text);
     background:
-      radial-gradient(900px 480px at 80% -10%, rgba(245,158,11,.16), transparent 60%),
-      radial-gradient(700px 400px at -10% 10%, rgba(234,88,12,.14), transparent 55%),
-      linear-gradient(180deg,#ffffff,#fffaf5 60%,#ffffff);
+      radial-gradient(900px 480px at 80% -10%, rgba(56,189,248,.16), transparent 60%),
+      radial-gradient(700px 400px at -10% 10%, rgba(14,165,233,.14), transparent 55%),
+      linear-gradient(180deg,#ffffff,#f7fcff 60%,#ffffff);
     -webkit-font-smoothing:antialiased;
     line-height:1.55;
     min-height:100vh;
@@ -106,8 +106,8 @@
     display:inline-flex;align-items:center;gap:8px;
     font-size:13px;font-weight:600;letter-spacing:.02em;
     color:var(--primary-darker);
-    background:linear-gradient(180deg,#ffedd5,#fff7ed);
-    border:1px solid #fed7aa;
+    background:linear-gradient(180deg,#e0f2fe,#f0f9ff);
+    border:1px solid #bae6fd;
     padding:6px 12px;border-radius:999px;
     margin-bottom:16px;
   }
@@ -133,7 +133,7 @@
   .steps li::before{
     content:counter(s);
     flex-shrink:0;width:26px;height:26px;border-radius:50%;
-    background:#fff;border:2px solid #fed7aa;
+    background:#fff;border:2px solid #bae6fd;
     display:flex;align-items:center;justify-content:center;
     font-size:12px;font-weight:800;color:var(--primary-dark);
   }
